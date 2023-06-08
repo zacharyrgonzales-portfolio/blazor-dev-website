@@ -1,0 +1,12 @@
+[
+  {
+    "title": "HashiCorp Certified: Terraform Associate (002)",
+    "description": "Earners of the HashiCorp Certified: Terraform Associate certification know the basic concepts, skills, and use cases associated with open source HashiCorp Terraform. They understand and can utilize Terraform according to the certification objectives. Additionally, they understand why enterprises choose to extend Terraform Open Source with Terraform Enterprise to solve business critical objectives.",
+    "url": "https://www.credly.com/badges/4a4d5a8f-553e-4a06-ba97-c67e452f0ead"
+  },
+  {
+    "title": "KCNA: Kubernetes and Cloud Native Associate",
+    "description": "Earners of this designation demonstrated a basic knowledge of Kubernetes and cloud-native technologies, including how to deploy an application using basic kubectl commands, the architecture of Kubernetes (containers, pods, nodes, clusters), understanding the cloud-native landscape and projects (storage, networking, GitOps, service mesh), and understanding the principles of cloud-native security.",
+    "url": "https://www.credly.com/badges/d63670e8-dad8-44f5-958e-08299e186697"
+  }
+]

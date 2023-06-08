@@ -12,6 +12,11 @@
   {
     "name": "portfolio",
     "src": "images/monkey.avif",
-    "alt": "desktop with books and laptop"
+    "alt": "Safety of mom."
+  },
+  {
+    "name": "education",
+    "src": "images/dog.avif",
+    "alt": "Let´s go for a swim"
   }
 ]

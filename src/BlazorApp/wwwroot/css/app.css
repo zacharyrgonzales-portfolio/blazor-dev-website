@@ -154,6 +154,30 @@ a:hover {
   }
 }
 
+.education-container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 420px) {
+  .education-container {
+    flex-direction: column;
+  }
+}
+
+.education-hero {
+  max-width: 40%;
+  align-self: center;
+}
+
+@media screen and (max-width: 420px) {
+  .education-hero {
+    max-width: 100%;
+    align-self: center;
+  }
+}
+
 .container {
   margin: 20px auto;
   display: grid;
@@ -240,6 +264,15 @@ img.social-icon {
 @keyframes slideInLeft {
   0% {
     transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
   }
   100% {
     transform: translateX(0);

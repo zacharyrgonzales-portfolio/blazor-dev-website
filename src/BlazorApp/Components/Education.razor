@@ -1,27 +1,27 @@
-<section class="light" id="portfolio">
+<section class="light" id="education">
     <h2>Education</h2>
-    <div class="portfolio-container">
-    @if (projects is null)
+    <div class="education-container">
+    @if (certificates is null)
     {
         <p><em>Loading...</em></p>
     }
     else
     {
-        <div class="portfolio-hero">
-            @if (hero is not null)
+        <div class="container">
+            @foreach (var certificate in certificates)
             {
-                <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover; animation: 3s ease-out 0s 1 slideInLeft;" alt="@(hero.Alt)" />            
+                <div class="box" key="@certificate.Title">
+                    <a href="@certificate.Url" target="_blank" rel="noopener noreferrer">
+                        <h3 style="flex-basis: 40px;">@certificate.Title</h3>
+                    </a>
+                    <p class="small">@certificate.Description</p>
+                </div>
             }
         </div>
-        <div class="container">
-            @foreach (var project in projects)
+        <div class="education-hero">
+            @if (hero is not null)
             {
-                <div class="box" key="@project.Title">
-                    <a href="@project.Url" target="_blank" rel="noopener noreferrer">
-                        <h3 style="flex-basis: 40px;">@project.Title</h3>
-                    </a>
-                    <p class="small">@project.Description</p>
-                </div>
+                <img src="@(hero.Src)" style="height: 90%; width: 100%; object-fit: cover; animation: 3s ease-out 0s 1 slideInRight;" alt="@(hero.Alt)" />            
             }
         </div>
     }
@@ -35,12 +35,12 @@
     [Parameter, EditorRequired]
     public required HeroImageService HeroImageService { get; set; }
 
-    private List<Project>? projects;
+    private List<Certificate>? certificates;
     private HeroImage? hero;
 
     protected override async Task OnInitializedAsync()
     {
-        projects = await Http.GetFromJsonAsync<List<Project>>("sample-data/projects.json");
-        hero = await HeroImageService.GetHeroAsync(img => img.Name is "portfolio");
+        certificates = await Http.GetFromJsonAsync<List<Certificate>>("sample-data/certificates.json");
+        hero = await HeroImageService.GetHeroAsync(img => img.Name is "education");
     }
 }
