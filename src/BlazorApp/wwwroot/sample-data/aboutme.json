@@ -1,12 +1,19 @@
 {
-  "description": "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.",
+  "description": "Zach is an DevOps & Site Reliability Engineer with 5+ years of experience in the cloud computing industry. He is passionate about building and operating reliable and scalable systems. Has a strong background in Azure and AWS and is proficient in a variety of programming languages and technologies.",
   "skills": [
-    "Web design",
-    "User experience",
-    "Inclusive design",
-    "Focus group testing",
-    "Mobile user interfaces",
-    "Graphic design"
+    "Systems and Networking",
+    "Coding and Scripting",
+    "Cloud Computing",
+    "Containerization and Orchestration"                                                            ,
+    "Infrastructure-as-Code (IaC)",
+    "Continuous Integration and Deployment (CI/CD)",
+    "Monitoring and Logging",
+    "Security and Compliance",
+    "Collaboration and Communication",
+    "Problem-Solving and Troubleshooting",
+    "Agile Methodologies",
+    "Business and Domain Knowledge",
+    "Programming Languages: C#, T-SQL, PowerShell, Bash, Python, Groovy, Ruby, JSON, XML"
   ],
-  "detailOrQuote": "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all."
+  "detailOrQuote": "I am committed to delivering high-quality work that meets the needs of my clients."
 }
