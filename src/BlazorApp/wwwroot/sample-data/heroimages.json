@@ -1,17 +1,17 @@
 [
   {
     "name": "home",
-    "src": "images/woman-with-tablet.jpg",
-    "alt": "woman with glasses holding a tablet"
+    "src": "images/mountain.jpg",
+    "alt": "Los Planes de Renderos, San Salvador, El Salvador"
   },
   {
     "name": "about",
-    "src": "images/motion-background.jpg",
-    "alt": "gray abstract background"
+    "src": "images/water.jpg",
+    "alt": "Tela, Honduras"
   },
   {
     "name": "portfolio",
-    "src": "images/design-desk.jpeg",
+    "src": "images/monkey.avif",
     "alt": "desktop with books and laptop"
   }
 ]
