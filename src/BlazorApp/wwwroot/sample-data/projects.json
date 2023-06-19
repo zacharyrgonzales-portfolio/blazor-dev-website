@@ -1,13 +1,13 @@
 [
   {
-    "title": "Developer Portfolio Website 🎉",
-    "description": "Created using Microsoft's Blazor and .NET 7 using Github Actions to build and deploy to an Azure Static Site.",
+    "title": "Developer Portfolio Website 🖥️",
+    "description": "Technologies used: Azure Blazor Web App, .NET 7, Github Actions.",
     "url": "https://github.com/zacharyrgonzales-azure/website"
   },
   {
-    "title": "",
-    "description": "",
-    "url": ""
+    "title": "TodoApp 📓",
+    "description": "Technologies Used: Azure React Web App, .NET 6, Functions with C# API, SQL Database, Azure Monitor, Azure Keyvault, Github Actions",
+    "url": "https://app-web-6tauyt77nlqw6.azurewebsites.net/"
   },
   {
     "title": "",
