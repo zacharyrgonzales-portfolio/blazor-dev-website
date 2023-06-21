@@ -1,22 +1,22 @@
 [
   {
-    "title": "Developer Portfolio Website 🖥️",
+    "title": "Blazor Developer Portfolio Website  🖥️",
     "description": "Technologies used: Azure Blazor Web App, .NET 7, Github Actions.",
     "url": "https://github.com/zacharyrgonzales-azure/website"
   },
   {
-    "title": "TodoApp 📓",
+    "title": "Azure Functions to Remove Unauthorized Role Assignments 📓",
     "description": "Technologies Used: Azure React Web App, .NET 6, Functions with C# API, SQL Database, Azure Monitor, Azure Keyvault, Github Actions",
     "url": "https://app-web-6tauyt77nlqw6.azurewebsites.net/"
   },
   {
-    "title": "",
-    "description": "",
+    "title": "Unity Game 🎮",
+    "description": "WIP; Technologies to use: C#, Unity Engine",
     "url": ""
   },
   {
-    "title": "",
-    "description": "",
+    "title": "WIP",
+    "description": "WIP",
     "url": ""
   }
 ]
